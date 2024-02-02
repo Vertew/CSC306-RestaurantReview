@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w1240dp-v13\\values-w1240dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "from": {
+                        "startLines": "2,1",
+                        "startColumns": "4,4",
+                        "startOffsets": "59,16",
+                        "endColumns": "58,42",
+                        "endOffsets": "113,54"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,42",
+                        "endOffsets": "109,152"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This layout was used for demonstrative purposes in coursework 1, it doesn't do anything now aside from
+act as a reference. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="A profile icon"
+        app:srcCompat="@drawable/profile" />
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:contentDescription="A back button"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageButton2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardBackgroundColor="@color/green_50"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="35dp"
+            android:contentDescription="A restaurant"
+            android:src="@drawable/restaurant2" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/info_text"
+            style="@style/TextAppearance.MaterialComponents.Headline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:text="Restaurant 2" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:contentDescription="Ratings stars"
+            android:numStars="5"
+            android:rating="4" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/info_text3"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="7dp"
+            android:text="(247)" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/info_text4"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_below="@id/cardView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="11, Restaurant Road, City, AA0 1BB" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_below="@id/info_text4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/info_text2"
+        style="@style/TextAppearance.MaterialComponents.Body2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider3"
+        android:layout_marginHorizontal="8dp"
+        android:text="Restaurant 2 is a very nice restaurant. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        android:textColor="@color/grey" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_below="@id/info_text2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_below="@id/divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Write review" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_below="@id/button"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/textView"
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/divider2"
+        android:layout_centerHorizontal="true"
+        android:text="User Reviews" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/textView"
+        android:divider="@color/green_500"
+        android:dividerHeight="1dp"
+        android:listSelector="@color/green_200" />
+
+
+</RelativeLayout>

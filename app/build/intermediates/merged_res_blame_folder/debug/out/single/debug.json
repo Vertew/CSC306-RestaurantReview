@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login2.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\layout\\activity_login2.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_restaurant2.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\drawable\\restaurant2.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_recycler_list.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\layout\\recycler_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_emptyhearticon2.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\drawable\\emptyhearticon2.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_recyclerview_item_row.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\layout\\recyclerview_item_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_background.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\drawable\\background.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_restaurant1.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\drawable\\restaurant1.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_restaurant_page.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\layout\\restaurant_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_sign_in.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\layout\\sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_results_page.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\layout\\activity_results_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\drawable_profile.png.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\drawable\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_review.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\layout\\activity_review.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_recyclerview_item_row_restaurant.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\layout\\recyclerview_item_row_restaurant.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\menu_app_bar.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\menu\\app_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_restaurant_page.xml.flat",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\CourseworkApplication\\app\\src\\main\\res\\layout\\activity_restaurant_page.xml"
+    }
+]

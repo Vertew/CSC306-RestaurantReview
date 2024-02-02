@@ -1,0 +1,24 @@
+com/example/courseworkapplication/databinding/ActivityReviewBinding.java
+ com.example.courseworkapplication.databinding.ActivityReviewBinding
+com/example/courseworkapplication/databinding/ActivityMainBinding.java
+ com.example.courseworkapplication.databinding.ActivityMainBinding
+com/example/courseworkapplication/BuildConfig.java
+ com.example.courseworkapplication.BuildConfig
+com/example/courseworkapplication/databinding/RecyclerviewItemRowBinding.java
+ com.example.courseworkapplication.databinding.RecyclerviewItemRowBinding
+com/example/courseworkapplication/databinding/SignInBinding.java
+ com.example.courseworkapplication.databinding.SignInBinding
+com/example/courseworkapplication/databinding/ActivityRestaurantPageBinding.java
+ com.example.courseworkapplication.databinding.ActivityRestaurantPageBinding
+com/example/courseworkapplication/databinding/RecyclerviewItemRowRestaurantBinding.java
+ com.example.courseworkapplication.databinding.RecyclerviewItemRowRestaurantBinding
+com/example/courseworkapplication/databinding/RecyclerListBinding.java
+ com.example.courseworkapplication.databinding.RecyclerListBinding
+com/example/courseworkapplication/databinding/ActivityResultsPageBinding.java
+ com.example.courseworkapplication.databinding.ActivityResultsPageBinding
+com/example/courseworkapplication/databinding/ActivityRegisterBinding.java
+ com.example.courseworkapplication.databinding.ActivityRegisterBinding
+com/example/courseworkapplication/databinding/ActivityLogin2Binding.java
+ com.example.courseworkapplication.databinding.ActivityLogin2Binding
+com/example/courseworkapplication/databinding/RestaurantPageBinding.java
+ com.example.courseworkapplication.databinding.RestaurantPageBinding
