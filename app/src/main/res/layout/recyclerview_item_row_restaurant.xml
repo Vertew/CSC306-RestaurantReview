@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:padding="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/rowDivider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/reviewTitle"
+        style="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Some title" />
+
+    <TextView
+        android:id="@+id/userName"
+        style="@style/TextAppearance.MaterialComponents.Subtitle2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toBottomOf="@id/reviewTitle"
+        tools:text="Some name" />
+
+    <RatingBar
+        android:id="@+id/ratingBar3"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/userName"
+        app:layout_constraintTop_toBottomOf="@id/userName" />
+
+    <TextView
+        android:id="@+id/reviewText"
+        style="@style/TextAppearance.MaterialComponents.Body2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="@id/ratingBar3"
+        app:layout_constraintTop_toBottomOf="@id/ratingBar3"
+        tools:text="Review goes here" />
+
+    <ImageView
+        android:id="@+id/taggedImageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/restaurant1"
+        app:layout_constraintStart_toStartOf="@id/reviewText"
+        app:layout_constraintTop_toBottomOf="@id/reviewText"
+        android:contentDescription="@string/users_tagged_image" />
+
+    <TextView
+        android:id="@+id/taggedLocationText"
+        style="@style/TextAppearance.MaterialComponents.Body2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="@id/taggedImageView2"
+        app:layout_constraintTop_toBottomOf="@id/taggedImageView2"
+        tools:text="Tagged location goes here (if one exists)" />
+
+    <TextView
+        android:id="@+id/editButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="@id/taggedLocationText"
+        app:layout_constraintTop_toBottomOf="@id/taggedLocationText" />
+
+
+    <ImageView
+        android:id="@+id/likeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toStartOf="@id/likeCount"
+        app:layout_constraintTop_toBottomOf="@id/taggedImageView2"
+        android:contentDescription="@string/a_like_button"
+        android:src="@drawable/emptyhearticon2"/>
+
+
+    <TextView
+        android:id="@+id/likeCount"
+        android:layout_width="0dp"
+        style="@style/TextAppearance.MaterialComponents.Headline5"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintTop_toBottomOf="@id/taggedImageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="6" />
+
+    <View
+        android:id="@+id/rowDivider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        android:layout_marginTop = "6dp"
+        app:layout_constraintStart_toStartOf="@id/editButton"
+        app:layout_constraintTop_toBottomOf="@id/editButton"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

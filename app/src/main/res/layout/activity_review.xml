@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:minHeight="?attr/actionBarSize"
+        app:menu="@menu/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary">
+    </androidx.appcompat.widget.Toolbar>
+
+    <RatingBar
+        android:id="@+id/reviewRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/toolbar6"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/reviewTitleInput"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:hint="@string/title_your_review"
+        android:textColorHint="#494949"
+        android:layout_below="@id/reviewRating"
+        app:boxStrokeColor="@color/green_500">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/reviewInput"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:hint="@string/add_a_public_review"
+        android:textColorHint="#494949"
+        android:layout_below="@id/reviewTitleInput"
+        app:boxStrokeColor="@color/green_500">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/postButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/post"
+        android:layout_marginBottom="15dp"
+        android:layout_alignEnd="@id/reviewInput"
+        android:layout_below="@id/reviewInput"
+        />
+
+    <TextView
+        android:id="@+id/locationInput"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="@string/review_location_text"
+        android:textColorHint="#494949"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/postButton"
+        app:boxStrokeColor="@color/green_500"/>
+
+    <Button
+        android:id="@+id/locationTagButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tag_a_location"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/locationInput"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <Button
+        android:id="@+id/imageTagButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tag_an_image"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/locationTagButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+
+    <ImageView
+        android:id="@+id/taggedImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageTagButton"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
